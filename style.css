@@ -24,7 +24,6 @@ header{
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  -webkit-border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,4 +44,11 @@ header{
 
 header.startup h1 {
   font-size: 2rem; 
+}
+nav {
+  background-color:white;
+  box-shadow: 0vh 0vh 2vh 3vh white;
+}
+.dropdown-menu a{
+  padding:8px
 }
