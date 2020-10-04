@@ -1,8 +1,15 @@
-
 body{
+    height:auto;
     background-image: url(header.jpg);
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat, repeat;
     line-height: 4px;
+    display: block;
+    background-size: 100%;
+    /* background-position: center; Center the image */
+
 }
 hr {
   max-width: 190px;
@@ -51,4 +58,22 @@ nav {
 }
 .dropdown-menu a{
   padding:8px
+}
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+  background-color: #121212;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size: 3.5vh;
+  position:fixed;
+  top:8%;
+  right:4%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
